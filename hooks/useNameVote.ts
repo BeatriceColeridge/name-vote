@@ -2,7 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { useAccount, useWaitForTransactionReceipt, useWriteContract } from "wagmi";
+import { appId, appName } from "@/lib/app-config";
 import { baseNameVoteAbi, baseNameVoteAddress } from "@/lib/contracts/baseNameVote";
+import { builderCodeDataSuffix } from "@/lib/wagmi";
 import { formatRelativeTime } from "@/lib/utils";
 import { trackTransaction } from "@/utils/track";
 
@@ -61,7 +63,7 @@ export function useNameVote() {
       title: "Submitted",
       description: "Your candidate has been recorded and the board is refreshed for the latest state.",
     });
-    trackTransaction("app-047", "name-vote", address, receipt.data.transactionHash);
+    trackTransaction(appId, appName, address, receipt.data.transactionHash);
     setCandidateName("");
   }, [address, receipt.data, receipt.isSuccess, submittedName]);
 
@@ -103,6 +105,7 @@ export function useNameVote() {
       abi: baseNameVoteAbi,
       functionName: "submitName",
       args: [trimmed],
+      dataSuffix: builderCodeDataSuffix,
     });
   };
 

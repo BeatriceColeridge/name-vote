@@ -1,3 +1,4 @@
+export const appId = "69c9f1ab54fba99e37410fe6";
 export const appName = "name-vote";
 export const appUrl = "https://name-vote-one.vercel.app";
 export const appDescription = "Naming submission tool for Base projects, NFT drops, and campaigns.";
