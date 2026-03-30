@@ -10,12 +10,17 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@base-org/account": "latest",
     "@tanstack/react-query": "^5.66.0",
     "next": "15.2.8",
+    "ox": "latest",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "viem": "^2.23.2",
-    "wagmi": "^2.14.16"
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "overrides": {
+    "@base-org/account": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

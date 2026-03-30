@@ -8,6 +8,10 @@ export function WalletButton() {
   const { connect, connectors, isPending } = useConnect();
   const { disconnect } = useDisconnect();
 
+  const preferredConnector = useMemo(() => {
+    return connectors.find((connector) => connector.id === "baseAccount") ?? connectors[0];
+  }, [connectors]);
+
   const label = useMemo(() => {
     if (isPending) return "Connecting";
     if (!isConnected || !address) return "Connect wallet";
@@ -25,7 +29,7 @@ export function WalletButton() {
   return (
     <button
       className="wallet-button"
-      onClick={() => connect({ connector: connectors[0] })}
+      onClick={() => preferredConnector && connect({ connector: preferredConnector })}
       type="button"
     >
       {label}

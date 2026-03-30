@@ -1,0 +1,31 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "name-vote",
+    "homeUrl": "https://name-vote-one.vercel.app",
+    "iconUrl": "https://name-vote-one.vercel.app/icon-1024.png",
+    "imageUrl": "https://name-vote-one.vercel.app/hero-image.png",
+    "buttonTitle": "Open name-vote",
+    "splashImageUrl": "https://name-vote-one.vercel.app/splash-icon.png",
+    "splashBackgroundColor": "#FFF8F2",
+    "subtitle": "Nominate the next standout name.",
+    "description": "Submit one naming candidate, browse the latest shortlist, and revisit your archive on Base.",
+    "primaryCategory": "art-creativity",
+    "tags": ["naming", "branding", "creative", "base"],
+    "tagline": "Pitch one name that sticks.",
+    "ogTitle": "name-vote",
+    "ogDescription": "Naming submission tool for Base projects, NFT drops, and campaigns.",
+    "ogImageUrl": "https://name-vote-one.vercel.app/og-image.png",
+    "heroImageUrl": "https://name-vote-one.vercel.app/hero-image.png",
+    "screenshotUrls": [
+      "https://name-vote-one.vercel.app/screenshot-hub.png",
+      "https://name-vote-one.vercel.app/screenshot-submit.png",
+      "https://name-vote-one.vercel.app/screenshot-detail.png"
+    ]
+  }
+}
