@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <meta name="base:app_id" content="69c22f7b3c2c56b9bbd2f616" />
+        <meta name="base:app_id" content="69c9f1ab54fba99e37410fe6" />
         <meta
           name="talentapp:project_verification"
           content="5920e03fe54fa06ada0c8dba2ae69f29a8a79e2537079347221062184b72f49a74cbfd8d7cec18844483fec59247df8bf1631273bffc8fe72eb9fcc1afaebc11"

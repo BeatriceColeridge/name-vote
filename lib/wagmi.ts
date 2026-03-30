@@ -15,7 +15,10 @@ export const wagmiConfig = createConfig({
   },
 });
 
-// TODO(builder-code): Replace this placeholder with the real builder code data suffix.
-// Example target shape:
-// export const builderCodeSuffix = "builder-code=REPLACE_WITH_REAL_VALUE";
-export const builderCodeSuffix = "builder-code=TODO_REPLACE_ME";
+// Base builder code configuration
+// builderCode: plain builder code identifier
+// builderCodeDataSuffix: encoded suffix payload used for 8021 / attribution flows
+export const builderCode = "bc_cnhoax1f";
+export const builderCodeSuffix = `builder-code=${builderCode}`;
+export const builderCodeDataSuffix =
+  "0x62635f636e686f617831660b0080218021802180218021802180218021";
