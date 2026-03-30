@@ -1,6 +1,7 @@
 .next
 node_modules
 .vercel
+.vercel-cli
 out
 dist
 *.log
