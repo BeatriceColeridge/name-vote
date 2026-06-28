@@ -84,3 +84,10 @@ Only use commands that match the files and tooling present in this repository.
 ## Project Structure
 
 The exact structure may change as the project develops.
+
+When adding new files, keep related items grouped clearly.
+
+Recommended areas to document include:
+
+- Source files
+- Data files
