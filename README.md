@@ -25,3 +25,9 @@ This README provides a clear project guide for setup, usage, and future maintena
 Clone the repository from GitHub:
 
 ```bash
+git clone https://github.com/BeatriceColeridge/name-vote.git
+```
+
+Move into the project directory:
+
+```bash
