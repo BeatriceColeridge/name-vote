@@ -124,3 +124,10 @@ Useful future additions may include:
 - Example input and output
 - Voting rules
 - Test instructions
+- Deployment notes, if applicable
+
+## License
+
+No license information is currently provided in this README.
+
+If a license file is added to the repository, refer to that file for the project license terms.
