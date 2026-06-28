@@ -37,3 +37,11 @@ cd name-vote
 ## Setup
 
 After cloning the repository, inspect the project files to determine the available runtime, scripts, or configuration.
+
+If the project includes dependency files, install dependencies using the package manager or toolchain indicated by those files.
+
+For example, look for files such as:
+
+- `package.json`
+- `requirements.txt`
+- `pyproject.toml`
