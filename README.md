@@ -110,3 +110,11 @@ Avoid committing generated files unless they are intentionally part of the proje
 Contributions can include bug fixes, documentation updates, feature improvements, or project cleanup.
 
 Before making significant changes, review the current project structure and follow the existing style where possible.
+
+If adding a new feature, include enough documentation for another person to understand how to use it.
+
+## Maintenance
+
+This README should be kept current as the project evolves.
+
+Useful future additions may include:
