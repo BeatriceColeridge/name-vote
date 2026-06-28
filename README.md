@@ -98,3 +98,9 @@ Recommended areas to document include:
 ## Development Notes
 
 Keep changes small and easy to review.
+
+Use clear commit messages that describe what changed and why.
+
+Update this README when setup steps, commands, or usage details change.
+
+Avoid committing generated files unless they are intentionally part of the project.
