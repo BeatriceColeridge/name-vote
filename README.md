@@ -104,3 +104,9 @@ Use clear commit messages that describe what changed and why.
 Update this README when setup steps, commands, or usage details change.
 
 Avoid committing generated files unless they are intentionally part of the project.
+
+## Contributing
+
+Contributions can include bug fixes, documentation updates, feature improvements, or project cleanup.
+
+Before making significant changes, review the current project structure and follow the existing style where possible.
