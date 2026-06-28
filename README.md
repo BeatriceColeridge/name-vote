@@ -51,3 +51,9 @@ For example, look for files such as:
 - `Makefile`
 
 Use the instructions and scripts present in the repository as the source of truth.
+
+## Usage
+
+Start by reviewing the project structure.
+
+Then run the appropriate command for the project based on the files included in the repository.
