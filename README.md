@@ -70,3 +70,11 @@ or:
 ```bash
 python main.py
 ```
+
+Only use commands that match the files and tooling present in this repository.
+
+## Suggested Workflow
+
+1. Add or review the list of available names.
+2. Record votes or preferences according to the project format.
+3. Review the collected results.
