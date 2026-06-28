@@ -78,3 +78,9 @@ Only use commands that match the files and tooling present in this repository.
 1. Add or review the list of available names.
 2. Record votes or preferences according to the project format.
 3. Review the collected results.
+4. Update the name list or voting method as needed.
+5. Document any changes that affect setup or usage.
+
+## Project Structure
+
+The exact structure may change as the project develops.
