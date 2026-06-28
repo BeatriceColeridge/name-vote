@@ -64,3 +64,9 @@ Common examples may include:
 npm install
 npm run start
 ```
+
+or:
+
+```bash
+python main.py
+```
