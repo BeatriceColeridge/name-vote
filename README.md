@@ -18,3 +18,10 @@ This README provides a clear project guide for setup, usage, and future maintena
 - Support a structured voting or preference process.
 - Help compare name options in one place.
 - Provide a foundation that can be extended as the project grows.
+- Keep project information documented for contributors and maintainers.
+
+## Repository
+
+Clone the repository from GitHub:
+
+```bash
