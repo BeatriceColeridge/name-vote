@@ -91,3 +91,10 @@ Recommended areas to document include:
 
 - Source files
 - Data files
+- Configuration files
+- Tests
+- Usage examples
+
+## Development Notes
+
+Keep changes small and easy to review.
