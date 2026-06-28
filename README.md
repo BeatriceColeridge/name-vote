@@ -45,3 +45,9 @@ For example, look for files such as:
 - `package.json`
 - `requirements.txt`
 - `pyproject.toml`
+- `Gemfile`
+- `Cargo.toml`
+- `go.mod`
+- `Makefile`
+
+Use the instructions and scripts present in the repository as the source of truth.
