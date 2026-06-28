@@ -118,3 +118,9 @@ If adding a new feature, include enough documentation for another person to unde
 This README should be kept current as the project evolves.
 
 Useful future additions may include:
+
+- Exact installation steps
+- Supported commands
+- Example input and output
+- Voting rules
+- Test instructions
