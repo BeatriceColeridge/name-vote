@@ -57,3 +57,10 @@ Use the instructions and scripts present in the repository as the source of trut
 Start by reviewing the project structure.
 
 Then run the appropriate command for the project based on the files included in the repository.
+
+Common examples may include:
+
+```bash
+npm install
+npm run start
+```
