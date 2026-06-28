@@ -31,3 +31,9 @@ git clone https://github.com/BeatriceColeridge/name-vote.git
 Move into the project directory:
 
 ```bash
+cd name-vote
+```
+
+## Setup
+
+After cloning the repository, inspect the project files to determine the available runtime, scripts, or configuration.
